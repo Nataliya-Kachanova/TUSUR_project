@@ -409,3 +409,35 @@
     }
   }
 }
+.scene__table {
+  cursor: pointer;
+}
+.scene__table--red .scene__table-group {
+  stroke: #BC3324;
+}
+.scene__table--red .scene__table-num {
+  fill: #BC3324;
+}
+.scene__table--active .scene__table-group {
+  fill: #1F1F1F;
+}
+.scene__table--active .scene__table-num {
+  fill: #FFFFFF;
+}
+.scene__table--active.scene__table--red .scene__table-group {
+  fill: #A51505;
+  stroke: #A51505;
+}
+.scene__table--disabled {
+  pointer-events: none;
+}
+.scene__table--disabled .scene__table-group {
+  stroke: #BFBFBF;
+  fill: #BFBFBF;
+}
+.scene__table-group {
+  stroke: #1F1F1F;
+}
+.scene__table-num {
+  fill: #1F1F1F;
+}
